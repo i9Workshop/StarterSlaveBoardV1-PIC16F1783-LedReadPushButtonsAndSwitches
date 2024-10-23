@@ -32,6 +32,7 @@ extern "C" {
     void programInitialize(void);
     void programLoop(void);
     
+    void ledMatrix_AllOff(void);
     void ledMatrix_SetDisplay(uint16_t ledWord);
     
 
